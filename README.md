@@ -1,6 +1,6 @@
 # BangleJS-HRM-Signal-Processing
 
-Python implementation of signal processing to extract HRV data from the Bangle.JS. Uses scipy and hrvanalysis.
+Python implementation of signal processing to extract HRV metrics from Bangle.JS raw HRM data. Uses scipy and hrvanalysis.
 
 In the same folder as the script, you need to keep a CSV file of extracted readings from the hrm.raw element of the Heat rate data object from the HR event on the Bangle.JS. I've written a companion app to extract this, which is uploaded here for now but will also be in the Bangle App Loader and maintained better there. The signal_processing script could also be adapted to work with other sensor readings but you'd need to factor in the sample rate and amplitude and adjust the script accordingly.
 
